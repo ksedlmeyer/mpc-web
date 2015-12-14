@@ -129,7 +129,7 @@ body {
 }
 
 .fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
-.fa.fa-instagram:hover, .fa.fa-wordpress {
+.fa.fa-instagram:hover, .fa.fa-wordpress:hover {
   color: #333;
 }
 
