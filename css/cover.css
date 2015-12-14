@@ -126,6 +126,7 @@ body {
 .fa.fa-twitter-square, .fa.fa-facebook-square, 
 .fa.fa-instagram, .fa.fa-wordpress {
   font-size: 40px;
+  color: #f5f5f5;
 }
 
 .fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
