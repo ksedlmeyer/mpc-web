@@ -1,0 +1,233 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(rgba(122, 122, 122, 0.6), rgba(122, 122, 122, 0.6)),
+              url('../img/mpcblur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /* -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.navbar-fixed-top {
+  margin-bottom: 19px;
+  margin-right: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.fa.fa-bars {
+  font-size: 30px;
+  color: #9d9d9d;
+}
+
+.dropdown {
+  background-color: #333;
+}
+
+.dropdown-menu {
+  background-color: #333;
+}
+
+.dropdown-menu>li>a {
+  font-size: 15px;
+  color: #9d9d9d;
+}
+
+.dropdown-menu>li>.active {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.cover-heading {
+  font-size: 80px;
+  text-shadow: 2px 2px 8px #333;
+}
+
+.cover-paragraph {
+  font-size: 20px;
+}
+
+
+/*
+ * Footer
+ */
+
+.fa.fa-twitter-square, .fa.fa-facebook-square, 
+.fa.fa-instagram, .fa.fa-wordpress {
+  font-size: 40px;
+  color: #f5f5f5;
+}
+
+.fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
+.fa.fa-instagram:hover, .fa.fa-wordpress:hover {
+  color: #333;
+}
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: #333;
+}
+
+.col-md-6 {
+  padding: 0, 10px, 0, 10px;
+}
+
+.contact-info {
+  list-style: none;
+  text-align: left;
+}
+
+.fa.fa-envelope, .fa.fa-twitter,
+.fa.fa-facebook {
+  font-size: 18px;
+}
+
+.contact-info>li>a {
+  font-size: 16px;
+}
+
+.contact-info>li>a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-general>p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.contact-heading {
+  text-align: left;
+}
+
+.contact-container {
+  padding-top: 70px;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  width: 80%;
+}
+
+.design-paragraph {
+  font-size: 18px;
+}
+
+.pong {
+  height: 300px;
+  width:182px;
+  border-radius: 5px;
+}
+
+.task {
+  height: 300px;
+  width: 277px;
+  border-radius: 5px;
+}

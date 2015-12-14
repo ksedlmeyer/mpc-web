@@ -1,0 +1,192 @@
+/* Background Image */
+body {
+  height: 80%;
+  background: linear-gradient(rgba(122, 122, 122, 0.6), rgba(122, 122, 122, 0.6)),
+              url('../img/mpcblur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-fixed-top {
+  margin-bottom: 19px;
+  margin-right: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.fa.fa-bars {
+  font-size: 30px;
+  color: #9d9d9d;
+}
+
+.dropdown {
+  background-color: #333;
+}
+
+.dropdown-menu {
+  background-color: #333;
+}
+
+.dropdown-menu>li>a {
+  font-size: 15px;
+  color: #9d9d9d;
+}
+
+/* Contact Page */
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  color: #2F4F4F;
+  font-weight: bold;
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png');
+}
+
+/* Navbar and header styling */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+  color: #999; /* IE8 proofing */
+  color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+.fa.fa-twitter-square, .fa.fa-facebook-square, 
+.fa.fa-instagram {
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #333;
+}
+
+.fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
+.fa.fa-instagram:hover {
+  color: #333;
+}
+
+  .site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /* -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*
+ * Footer
+ */
+.fa.fa-twitter-square, .fa.fa-facebook-square, 
+.fa.fa-instagram {
+  font-size: 40px;
+}
+
+.fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
+.fa.fa-instagram:hover {
+  color: #333;
+}
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
