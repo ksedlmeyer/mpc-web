@@ -123,12 +123,12 @@ body {
  */
 
 .fa.fa-twitter-square, .fa.fa-facebook-square, 
-.fa.fa-instagram {
+.fa.fa-instagram, .fa.fa-wordpress {
   font-size: 40px;
 }
 
 .fa.fa-twitter-square:hover, .fa.fa-facebook-square:hover, 
-.fa.fa-instagram:hover {
+.fa.fa-instagram:hover, .fa.fa-wordpress {
   color: #333;
 }
 
